@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang= "cn">
+
+<head>
+    <meta charset="UTF-8>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <title>tang tang</title>
+</head>
+
+
+<style>
+* {
+    box-sizing: border-box;
+}
+ 
+
+body {
+    font-family: yahei;
+    margin: 0;
+}
+ 
+
+.header {
+    padding: 80px;
+    text-align: center;
+    color: skyblue;
+    background: #8adf91 url(./img/1.jpg) no-repeat center;
+    background-size:600px 300px;
+    
+    
+}
+ 
+
+.header h1 {
+    font-size: 60px;
+}
+ 
+
+.navbar {
+    overflow: hidden;
+    background-color: skyblue;
+}
+ 
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+ 
+
+.navbar a.right {
+    float: right;
+}
+ 
+
+.navbar a:hover {
+    background-color: pink;
+    color: black;
+}
+ 
+
+.row {  
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+}
+ 
+
+
+.side {
+    -ms-flex: 30%; /* IE10 */
+    flex: 30%;
+    background-color: #c4aad5;
+    padding: 20px;
+}
+    .t1 {font: italic 20px yahei;
+        
+    }
+    .t2{font: 18px yahei; 
+        color:blue;
+        
+    }
+ 
+
+.main {   
+    -ms-flex: 70%; /* IE10 */
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+   
+}
+    
+
+.fakeimg {
+    background-color: #c4aad5;
+    width: 100%;
+    padding: 20px;
+}
+    
+ 
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+}
+ 
+
+@media screen and (max-width: 700px) {
+    .row {   
+        flex-direction: column;
+    }
+}
+ 
+
+@media screen and (max-width: 400px) {
+    .navbar a {
+        float: none;
+        width: 100%;
+    }
+}
+</style>
+<body>
+<div class="header">
+  <h1>Tangtang's life</h1>
+  <p style="color: black;">IM a happy little dog</p>
+  <span style="color: pink;">hapyy</span> 
+  <span>healthy</span>
+  <span style="color: blue;">happy</span>
+  <span>friendly</span>
+</div>
+ 
+<div class="navbar">
+  <a href="#">1 years</a>
+  <a href="#">2 years</a>
+  <a href="#">3 years</a>
+  <a href="#">4 years</a>
+  <a href="#" class="right">life</a>
+</div>
+ 
+<div class="row">
+  <div class="side">
+      <h2>about me</h2>
+      <h5>my photo:</h5>
+      <div class="fakeimg" style="height:200px;"><img style="
+    height: 200px;
+" src="./img/1.jpg"></div>
+      <p class="t1" style="
+    color: #0a0538;
+    font: 2em;
+">My name is Tangtang</p>
+          <p class="t2" style="text-align: center;/* color: black; *//* font: 18px yahei; */">I am 4 years old</p>
+      <p style="text-align: right;">I am a boy</p>
+      <div class="fakeimg" style="height:100px;"><img style="height: 90px;width: 180px;" src="./img/3.jpg"></div><hr>
+      <div class="fakeimg" style="height:100px;"><img style="height: 90px;width: 180px;" src="./img/6.jpg"></div><hr>
+      <div class="fakeimg" style="height:100px;"><img style="height: 90px; width: 180px;" src="./img/9.jpg"></div>
+    <hr>
+    <p style="
+    font: 12px yahei;
+    color: #0f79d3;
+">I will be 4 years old on july 8th</p>
+  </div>
+  <div class="main">
+      <h2>A happy day</h2>
+      <h5>My dad</h5>
+      <div class="img2" style="width: 250px;height: 170px;background-color: #f5ecec;"> <img style="height: 168px;width: -webkit-fill-available;" src="./img/2.jpg">   </div>
+      <p>In the park</p>
+      <p>My favorite thing is to play in the park with my dad and mom,I like playing ball very much</p>
+      <br>
+      <h2>My brother and sister </h2>
+      <h5>At home</h5>
+      <div class="img2" style=" height:150px;"><img style="height: 168px;width: -webkit-fill-available;" src="./img/5.jpg"></div>
+      
+      <div class="img2" style=" height:150px;"><img style="height: 168px;width: -webkit-fill-available;" src="./img/7.jpg"></div>
+  </div>
+</div>
+ 
+<div class="footer">
+  <h2>This is my first web</h2>
+</div>
+
+</body>
+</html>
